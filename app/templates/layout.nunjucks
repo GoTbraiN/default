@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+
+{% include "partials/navigation.nunjucks" %}
+
+<!-- You write code for this content block in another file -->
+{% block content %} {% endblock %}
+
+<!--build:js scripts/vendors.js -->
+<script src="scripts/vendors/jquery-2.2.0.min.js"></script>
+<!-- endbuild -->
+
+<!--build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
