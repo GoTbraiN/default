@@ -11,6 +11,7 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var autoprefixer = require('gulp-autoprefixer');
 var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
 
 
 gulp.task('sass', function() {
